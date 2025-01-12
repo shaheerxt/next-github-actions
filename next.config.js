@@ -1,3 +1,4 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
@@ -5,6 +6,8 @@ const nextConfig = {
     images: {
       unoptimized: true,
     },
+    // This is needed for GitHub Pages
+    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
   }
   
   module.exports = nextConfig
