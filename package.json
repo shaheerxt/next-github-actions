@@ -1,6 +1,7 @@
 {
   "name": "next-github-actions",
   "version": "0.1.0",
+  "homepage": "https://shaheerxt.github.io/next-github-actions",
   "private": true,
   "scripts": {
     "dev": "next dev",
